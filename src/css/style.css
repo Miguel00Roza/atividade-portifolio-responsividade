@@ -49,15 +49,19 @@ main {
         display: flex;
         flex-wrap: wrap;
         gap: calc(50px + 1rem);
-        justify-content: space-between
+        justify-content: center;
         & .card1{
             border: solid 1px black;
-            width: 50%;
+            width: 40%;
             min-width: 300px;
+            overflow: hidden;
+            & img {
+                width: 300px;
+            }
         }
         & .card2{
             border: solid 1px black;
-            width: 50%;
+            width: 40%;
             min-width: 300px;
         }
     }
