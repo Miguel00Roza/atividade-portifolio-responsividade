@@ -1,0 +1,26 @@
+/*-----------header---------------*/
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: calc(10px + 1vw);
+    & .nav-bar {
+        border: solid 2px #E5E5E5;
+        border-radius: 200px;
+        padding: 3px;
+        font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+        & ul {
+            display: flex;
+            gap: calc(10px + 0.1vw);
+            margin: 0 auto 0 auto;
+            & li a {
+                padding: 10px 15px;
+                display: block;
+            }
+            & li .page{
+                color: white;
+                background-color: black;
+                border-radius: 200px;
+            }
+        }
+    }
+}
